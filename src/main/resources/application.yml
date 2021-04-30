@@ -1,0 +1,13 @@
+server:
+  port: 8030
+
+spring:
+  application:
+    name: data_sync_test
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spro_h_crm_test?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: admin
+    maximum-pool-size: 100
+
